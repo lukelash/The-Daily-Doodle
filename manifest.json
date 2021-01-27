@@ -1,0 +1,33 @@
+{
+  "name": "The Daily Doodle",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Designer Doodles Delivered Digitally to our Demanding Denizens",
+  "permissions": ["activeTab"],
+
+  "chrome_url_overrides": {
+    "newtab": "content.html"
+  },
+
+  "icons": {
+     "16": "daisy16.png",
+     "48": "daisy48.png",
+     "128": "daisy128.png"
+ },
+
+ "browser_action": {
+   "default_icon": "daisy48.png",
+   "default_popup": "popup.html",
+   "default_title": "The Daily Doodle"
+ },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ]
+
+
+}
