@@ -1,5 +1,6 @@
-#body {
-  background-image:linear-gradient(white,#D5D6EA);
+#popupBody {
+  /*background-image:linear-gradient(white,#D5D6EA);*/
+  background-color: purple;
   width: 400px;
   height: 300px;
 }
