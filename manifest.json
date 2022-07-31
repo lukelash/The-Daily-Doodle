@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "Designer Doodles Delivered Digitally to our Demanding Denizens",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage"],
 
   "chrome_url_overrides": {
     "newtab": "content.html"
@@ -27,10 +27,6 @@
       "css": ["content.css"],
       "js": ["content.js"]
     }
-  ],
-
-"background": {
-  "scripts": ["background.js"]
-}
+  ]
 
 }
