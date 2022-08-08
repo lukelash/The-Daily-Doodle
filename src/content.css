@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#doodle-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  border: 1px solid blue;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#doodle-header-div {
+  height: 5%;
+  width: auto;
+}
+
+#doodle-image-div {
+  height: 80%;
+}
+
+#doodle-image {
+  max-width: 100%;
+  max-height: 100%;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#doodle-footer-div {
+  height: 15%;
+  width: auto;
+  display: flex;
+}
+
+#doodle-p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: auto;
+}

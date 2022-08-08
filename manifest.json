@@ -6,26 +6,26 @@
   "permissions": ["activeTab", "storage"],
 
   "chrome_url_overrides": {
-    "newtab": "content.html"
+    "newtab": "src/content.html"
   },
 
   "icons": {
-     "16": "daisy16.png",
-     "48": "daisy48.png",
-     "128": "daisy128.png"
+     "16": "assets/daisy16.png",
+     "48": "assets/daisy48.png",
+     "128": "assets/daisy128.png"
  },
 
  "browser_action": {
-   "default_icon": "daisy48.png",
-   "default_popup": "popup.html",
+   "default_icon": "assets/daisy48.png",
+   "default_popup": "src/popup.html",
    "default_title": "The Daily Doodle"
  },
 
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["content.css"],
-      "js": ["content.js"]
+      "css": ["src/content.css"],
+      "js": ["src/content.js"]
     }
   ]
 
