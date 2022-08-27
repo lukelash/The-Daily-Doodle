@@ -96,7 +96,7 @@ window.onload = () => {
 
 // console.log('Value currently is ' + output);
 
-var img = document.getElementById("doodle-img");
+var img = document.getElementById("doodle-image");
 
 img.addEventListener("click", function() { location.reload(); })
 
