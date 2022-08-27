@@ -80,8 +80,6 @@ window.onload = () => {
               //return allURLs;
 });
 
-  
-
 
 // var key = "keytest";
 // var value = "valuetest";
@@ -98,6 +96,8 @@ window.onload = () => {
 
 // console.log('Value currently is ' + output);
 
+var img = document.getElementById("doodle-img");
 
+img.addEventListener("click", function() { location.reload(); })
 
 };
