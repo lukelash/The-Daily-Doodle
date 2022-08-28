@@ -100,4 +100,5 @@ var img = document.getElementById("doodle-image");
 
 img.addEventListener("click", function() { location.reload(); })
 
+
 };

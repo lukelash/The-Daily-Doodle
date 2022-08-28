@@ -1,7 +1,7 @@
 {
   "name": "The Daily Doodle",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Designer Doodles Delivered Digitally to our Demanding Denizens",
   "permissions": ["activeTab", "storage"],
 
@@ -15,7 +15,7 @@
      "128": "assets/daisy128.png"
  },
 
- "browser_action": {
+ "action": {
    "default_icon": "assets/daisy48.png",
    "default_popup": "src/popup.html",
    "default_title": "The Daily Doodle"

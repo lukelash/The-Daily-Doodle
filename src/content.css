@@ -32,6 +32,11 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+#doodle-image:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  cursor: pointer;
+}
+
 #doodle-footer-div {
   height: 15%;
   width: auto;
