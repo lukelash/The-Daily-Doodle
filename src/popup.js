@@ -32,7 +32,10 @@ function colorChanger() {
 }
 
 
-document.getElementById("clicky").addEventListener("click", colorChanger)
+var btn = document.getElementById("clicky");
+btn.addEventListener("click", function() {
+  alert();
+})
 
 
 

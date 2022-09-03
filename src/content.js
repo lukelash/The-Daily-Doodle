@@ -98,7 +98,7 @@ window.onload = () => {
 
 var img = document.getElementById("doodle-image");
 
-img.addEventListener("click", function() { location.reload(); })
+img.addEventListener("click", function() { location.reload(); });
 
 
 };
